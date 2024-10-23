@@ -26,10 +26,8 @@ public class ProductController {
 	
 	ArrayList<Product> productList=new ArrayList<>();
 	{
-	
 	productList.add(new Product(101,"Nike","Feature walk",1234,15000));
 	productList.add(new Product(102,"Adidas","Comfort walk",134,12800));
-	
 	productList.add(new Product(103,"Puma","Firm Grip",456,1672));
 	}
 	
@@ -66,10 +64,7 @@ public class ProductController {
 //		int index=productList.indexOf(temp);
 //		productList.remove(index);
 //		productList.add(index,temp);
-		return null;
-		
-		
-		
+		return null;	
 	}
 	
 	@DeleteMapping(value="/delete/{id}")
